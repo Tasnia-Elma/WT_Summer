@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    
+}
+div.header{
+text-align: center;
+}
+.header h3
+{
+    font-size: large;
+    color: rgb(0, 0, 255);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(106, 255, 255);
+    padding: 15px;
+    width: 1500px;
+    height: 1500px;
+    border: 10px solid rgb(101, 96, 96);
+}
+
+div.topnav{
+    top: 20px;
+    border: 3px solid rgb(35, 8, 35);
+    background-color:rgb(68, 17, 68) ;
+    
+}
+.topnav {
+    
+    overflow: hidden;
+    background-color: rgb(36, 5, 36);
+  }
+
+  .topnav a{
+    float: left;
+    display: block;
+    color: rgb(240,255,240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: rgb(115, 35, 234);
+    color: black;
+  }
+div.regform{
+    background-color: rgb(204, 220, 204);
+    border-left:  10px solid rgb(25, 142, 136);
+    font-family: 'Times New Roman';
+}
+
+
+table th,td{
+   background-color: rgb(238, 238, 158);
+}
+.button{
+    background-color: rgb(34, 105, 105);
+    border-radius: 2px;
+    
+    color: rgb(6, 8, 63);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+div.relative{
+    position: relative;
+    left: 60px;
+    top: 80px;
+}
+
+div.absolute
+{
+    position: absolute;
+
+}
+a:hover{
+    color: rgb(0, 128, 128);
+}
